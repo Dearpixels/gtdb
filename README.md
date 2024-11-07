@@ -90,7 +90,3 @@ from gtdb.requests import Request
 req = Request("my_database.json")
 req.increment_field("age", 1, "user1")
 ```
-
----
-
-Эта документация дает общее представление о библиотеке. Если потребуется больше примеров, уточните, и я добавлю!
