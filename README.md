@@ -76,7 +76,7 @@ pip install gtdb
 **Пример 1**: Создание базы данных и добавление данных
 
 ```python
-from gtdb.database import Gtdb
+from gtdb import Gtdb
 
 db = Gtdb("my_database.json")
 db.add({"user1": {"name": "Alice", "age": 25}})
@@ -85,7 +85,7 @@ db.add({"user1": {"name": "Alice", "age": 25}})
 **Пример 2**: Обновление числового поля
 
 ```python
-from gtdb.requests import Request
+from gtdb import Request
 
 req = Request("my_database.json")
 req.increment_field("age", 1, "user1")
