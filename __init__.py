@@ -1,2 +1,3 @@
 from .database import Gtdb
-from .requests import Request
+from .request import Request
+from .async_request import AsyncRequest
